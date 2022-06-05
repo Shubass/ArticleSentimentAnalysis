@@ -252,7 +252,7 @@ def countryRanking(countryDict):
     plt.bar(sortedKey, sortedValues, fc="lightgray", ec="black")
     plt.xlabel("Country")
     plt.ylabel("Average Net Sentiment")
-    plt.title("Analysis of Article")
+    plt.title("Rankings of Country")
 
     for i in range(len(sortedKey)):
         plt.text(i,sortedValues[i],sortedValues[i],ha="center",va="bottom")
